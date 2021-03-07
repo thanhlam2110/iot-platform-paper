@@ -1,0 +1,24 @@
+{
+    "mongo": {
+      "linkcu": "mongodb://admin:Vnpt%40123@mongodb-1:27017,mongodb-2:27017,mongodb-3:27017/?replicaSet=datlichkham&authSource=admin",
+      "link": "mongodb://casuser:Mellon@iotsso:27017/cas?authSource=cas",
+      "url": "mongodb://casuser:Mellon@iotsso:27017/cas?authSource=cas"
+    },
+    "sso": {
+      "url": "https://iotsso.vdc2.com.vn:8443/cas/oauth2.0"
+    },
+    "mqttbroker": {
+      "urllocal": "tcp://13.228.21.221:1883",
+      "urlpublic_old": "tcp://broker1B:1883",
+      "urlpublic": "tcp://13.212.194.253:1883"
+    },
+    "kafka": {
+      "url_old": "13.212.48.40",
+      "url": "13.212.48.40",
+      "groupID":             "MQTT",
+      "autoOffsetReset":    "earliest",
+      "maxPollIntervalms": "300000",
+      "sessionTimeoutms":   "10000",
+      "pool_max_connection": "20000"
+    }
+}
